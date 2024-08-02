@@ -1,0 +1,60 @@
+<style type="text/css" media="screen">
+	html, body 		{ margin: 0; padding: 0; }
+	body 			{ color: #333; font: 14px Helvetica, Arial, sans-serif; line-height: 24px; }
+	h2				{ color: #333; }
+	a				{ color: #337810; }
+	p				{ margin: 0 0 18px; }
+	#container		{ width: 780px; margin: 0 auto; }
+	
+	/* Header */
+	#header			{ background:#D2E0C7; border-bottom: 2px solid #ddd; }
+	#header h1  	{ color: #004b6f; margin: 0 0 3px; padding: 24px 18px 0; }
+	#header p		{ color: #666; font-size: 12px; font-weight: bold; padding: 0 18px; }
+	
+	/* Content Style */
+	#navigation		{ border-bottom: 1px solid #ccc; margin-left: 1px;}
+	#navigation ul	{ padding: 0 10px 9px; }
+	#navigation li  { list-style-type:none; font-size: 16px;  padding: 10px; text-decoration: none;}
+	#extra			{ margin: 0 18px; }
+	#extra li		{ list-style-type:none;}
+	#extra small	{ font-size: 12px; line-height: 18px; }
+	#content		{ border-bottom: 1px solid #ccc; margin-bottom: 18px; margin-right: 18px; }
+	#content p, #extra p { padding-right: 18px; }
+	
+	/* Content Positioning & Size */
+	#navigation		{ float: left; width: 175px; }
+	#content		{ float: right; width: 540px; }
+	#extra			{ clear: both; }		/* Footer */
+	#footer			{ background:#D2E0C7; border-bottom: 2px solid #999; }
+	#footer a		{ color: #333; }
+	#footer	p		{ color: #666; margin: 0; padding: 0 18px 10px; }
+	#footer ul		{ border-bottom: 1px solid #555; list-style: none; margin: 0 18px 6px; padding: 10px 0 6px; }
+	#footer li		{ display: inline; font-size: 12px; font-weight: bold; padding-right: 40px; }
+	
+	/* Change the link color on hover */
+	/*navigation li a:link, li a:visited {
+		color: #337810;
+	}*/
+	#navigation li a.current{
+	   display:block;
+	   background:#D2E0C7;
+	   font-weight:bold;
+	}
+
+	#navigation li a:hover{
+		display:block;
+		background-color:#D2E0C7;
+	}
+	
+	#footer li a.current{
+	   display:block;
+	   background:gray;
+	   font-weight:bold;
+	}
+	
+	#footer li a:hover{
+		display:inline-block;
+		background-color:gray;
+	}
+
+</style> 
