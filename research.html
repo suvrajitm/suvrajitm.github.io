@@ -8,118 +8,120 @@
 <link href="https://suvrajitm.github.io/myCssStyle.css" rel="stylesheet" type="text/css">
 <body>
     <div id="container">
-    <div id="header">
-    <h1>Research</h1>
-    <p class="description"></p>
-    </div>
-    <div id="wrapper">
-    <div id="content">
-    <h2>Research Interests</h2>
-    <div align="justify"><p>
-    <b>I. Computational Structural Biophysics and Systems Biology.</b> My current research projects are broadly in the area of structural biophysics and systems biology. I am mainly involved in few projects related to the development of computational methods to analyze and predict the RNA-protein binding interactions, RNA-protein complex structures using crosslinking, sequence and structural datasets.
-    <br><br><b>II. Computational Structural Biophysics.</b> My primary research area has been computational structural biology and biophysics. In my previous position in Dr. Joachim Frank's lab (04/2015 - 08/2020), I was mainly involved in the development of methods to study the structure and dynamics of macromolecular machines using cryo-EM image datasets. Following are the details of the individual projects:
-    <br><b>1. Continuum of conformational states from cryo-EM data using manifold learning:</b><br><b>(a)</b> I was working on a method ManifoldEM to obtain a continuum of conformational states of macromolecular machines from cryo-EM data.
-    Conventional methods using maximum likelihood classification, analyzes the projection images and determines the 3D structures with various conformation.
-    Hoewever, these methods are able to determine only a limited number of discrete classes.
-    Our approach aims to determine the continuum of conformational states (landscape) given enough projection images
-    of the molecular machines (Dashti et al. 2014, Frank et al. 2016). We achieve this task by analyzing the "space of images" employing the methodology known as manifold learning.
-    <br><b>(b) Propagation of reaction coordinates across angular space:</b>One important step in deriving a consolidated map of occupancies and energy landscape, is to propagate the reaction coordinates, from a known "anchor PD" and this has been done thus far "by hand".
-    In this work we have developed a method (Accepted to Journal of Chemical Information and Modeling, Special Issue:Frontiers in CryoEM Modeling, Maji et al. 2020), that attempts to solve the propagation problem by using a probabilistic graphical model and feature extraction methods such as optical flow & histogram of oriented gradients.
-    We illustrate the successful application of the propagation method to a ryanodine receptor and ribosome data.
-    <br><img alt="" src="https://suvrajitm.github.io/reswork/ccpropfigures1.jpg" width="475" height="250"></br>
+        <div id="header">
+            <h1>Research</h1>
+            <p class="description"></p>
+        </div>
 
-    <br><br><b>2. Structure and function of 30S translational initiation complex:</b> Recently, I got involved in an ongoing project in our group using cryo-EM to obtain insight about the conformational rearrangements of the ribosomal subunits during the initiation process.
+        <div id="wrapper">
+            <div id="content">
+            <h2>Research Interests</h2>
+            <div align="justify"><p>
+            <b>I. Computational Structural Biophysics and Systems Biology.</b> My current research projects are broadly in the area of structural biophysics and systems biology. I am mainly involved in few projects related to the development of computational methods to analyze and predict the RNA-protein binding interactions, RNA-protein complex structures using crosslinking, sequence and structural datasets.
+            <br><br><b>II. Computational Structural Biophysics.</b> My primary research area has been computational structural biology and biophysics. In my previous position in Dr. Joachim Frank's lab (04/2015 - 08/2020), I was mainly involved in the development of methods to study the structure and dynamics of macromolecular machines using cryo-EM image datasets. Following are the details of the individual projects:
+            <br><b>1. Continuum of conformational states from cryo-EM data using manifold learning:</b><br><b>(a)</b> I was working on a method ManifoldEM to obtain a continuum of conformational states of macromolecular machines from cryo-EM data.
+            Conventional methods using maximum likelihood classification, analyzes the projection images and determines the 3D structures with various conformation.
+            Hoewever, these methods are able to determine only a limited number of discrete classes.
+            Our approach aims to determine the continuum of conformational states (landscape) given enough projection images
+            of the molecular machines (Dashti et al. 2014, Frank et al. 2016). We achieve this task by analyzing the "space of images" employing the methodology known as manifold learning.
+            <br><b>(b) Propagation of reaction coordinates across angular space:</b>One important step in deriving a consolidated map of occupancies and energy landscape, is to propagate the reaction coordinates, from a known "anchor PD" and this has been done thus far "by hand".
+            In this work we have developed a method (Accepted to Journal of Chemical Information and Modeling, Special Issue:Frontiers in CryoEM Modeling, Maji et al. 2020), that attempts to solve the propagation problem by using a probabilistic graphical model and feature extraction methods such as optical flow & histogram of oriented gradients.
+            We illustrate the successful application of the propagation method to a ryanodine receptor and ribosome data.
+            <br><img alt="" src="https://suvrajitm.github.io/reswork/ccpropfigures1.jpg" width="475" height="250"></br>
 
-    <br><br><b>3. Characterization of domain motion with coordinate transformation using moments of inertia tensor:</b> I am also working on developing methods to study the domain motion of macromolecular structures. Molecular machines such as the ribosome,
-    while performing a certain biophysical process (e.g. translation, protein synthesis , etc.), undergo a series of conformational changes often characterized by relative motions of their domains.
-    These processes can be studied using various structural biology techniques and usually we have conformational snapshots of the molecular machines (pdb structures), obtained from flexible fitting of low-resolution cryo-EM density maps,
-    from X-ray crystallography, or from molecular dynamics simulation trajectories. The goal is to analyze these snapshots and obtain meaningful information about the motions of the molecular machines.
-    We have recently developed a comprehensive method (<a href="http://pubs.acs.org/doi/abs/10.1021/acs.jpcb.6b10732" style="TEXT-DECORATION: none">Maji et al. 2017</a>) implemented
-    on the VMD platform, which can quantify these motions in a general and biologically informative way. Our objective is to characterize the motion of each domain as a
-    coordinate transformation using moments of inertia tensor (Agirrezabala et al. 2011, 2012). These tools presents a practical way for reproducible segmentation of domains,
-    and provide a generalized description of their motions
-    using principal axes of inertia. We can obtain the rotation angle and the native rotation axis for certain domain undergoing motion. Moreover, we can also determine
-    the component of the rotation around a specified axis, not necessarily the native rotation axis. Using such a toolset we can compare domain motion data from different researchers.
-    <br><br><img alt="" src="https://suvrajitm.github.io/reswork/figdmtoc.jpg" width="250" height="175"></br>
-    <br><b>Quantifying the domain motion of macromolecular machines</b></br>
-    <br><img alt="" src="https://suvrajitm.github.io/reswork/SSUBodyRot.gif" width="350" height="175">
-    <img alt="" src="https://suvrajitm.github.io/reswork/SUHeadRot.gif" width="350" height="175"></br>
-    <br><b>Domain Motion of a molecular machine, ribosome. Small Subunit Body rotation (Top). Small Subunit Head rotation (Bottom).</b></br>
-    <br>Reference:<a href="http://pubs.acs.org/doi/abs/10.1021/acs.jpcb.6b10732" style="TEXT-DECORATION: none"> Quantitative Characterization of Domain Motions in Molecular Machines</a>
-    <br><a href="http://pubs.acs.org/doi/abs/10.1021/acs.jpcb.6b10732" style="TEXT-DECORATION: none">DOI: 10.1021/acs.jpcb.6b10732 </a></br>
-    <br><b>Previous Research</b>
-    <br>My previous research interests were single molecule Biophysics and fluorescence microscopy image analysis. I was involved in few different projects such as single particle tracking of biological molecules and superresolution bioimaging studies.
-    My main project was on developing approaches using Generative models for inferring biological structures from single molecule super-resolution datasets, which can potentially improve dynamic localization imaging of structural components in cells.
-    I was also involved in the development of three-dimensional single molecule localization algorithms using fluorescent beads, quantum dots and fluorogen activating peptides (FAPs).
-    <br>Apart from single molecule imaging projects, I have also worked on understanding co-translational folding of protein, where I computationally studied the effect of codon usage and tRNA concentration on the translation rates for several proteins.<br/>
-    <br><br>
-    <h2>Research Summary</h2>
-    <div align="justify">
-    <b>I. Computational Biology and Computational Genomics</b>
-    <li type="none">Transcriptional Gene Regulatory network</li>
-    <li type="none">Machine Learning</li>
-    <b>II. Computational Structural Biology and Biophysics</b>
-    <li type="none">Cryo-EM Image reconstruction of macromolecular structures</li>
-    <li type="none">Heterogeniety and dynamics of macromolecular machines using Manifold learning and other computational approaches</li> <b>III. Computational Single Molecule Biophysics</b>
-    <li type="none">Single Molecule Biophysics , Single Particle Tracking, Super-Resolution Imaging</li>
-    <br><b>IV. General Topics</b></br>
-    <li type="none">Probabilistic Graphical Models</li>
-    <li type="none">Generative Models</li>
-    <li type="none">Manifold Learning</li>
-    <li type="none">Machine Learning</li>
-    <li type="none">Biological Image Analysis</li>
-    <li type="none">Computer Vision</li>
-    <li type="none">Pure and Applied Mathematics</li>
-    </div>
-    </div>
+            <br><br><b>2. Structure and function of 30S translational initiation complex:</b> Recently, I got involved in an ongoing project in our group using cryo-EM to obtain insight about the conformational rearrangements of the ribosomal subunits during the initiation process.
 
-    </div>
+            <br><br><b>3. Characterization of domain motion with coordinate transformation using moments of inertia tensor:</b> I am also working on developing methods to study the domain motion of macromolecular structures. Molecular machines such as the ribosome,
+            while performing a certain biophysical process (e.g. translation, protein synthesis , etc.), undergo a series of conformational changes often characterized by relative motions of their domains.
+            These processes can be studied using various structural biology techniques and usually we have conformational snapshots of the molecular machines (pdb structures), obtained from flexible fitting of low-resolution cryo-EM density maps,
+            from X-ray crystallography, or from molecular dynamics simulation trajectories. The goal is to analyze these snapshots and obtain meaningful information about the motions of the molecular machines.
+            We have recently developed a comprehensive method (<a href="http://pubs.acs.org/doi/abs/10.1021/acs.jpcb.6b10732" style="TEXT-DECORATION: none">Maji et al. 2017</a>) implemented
+            on the VMD platform, which can quantify these motions in a general and biologically informative way. Our objective is to characterize the motion of each domain as a
+            coordinate transformation using moments of inertia tensor (Agirrezabala et al. 2011, 2012). These tools presents a practical way for reproducible segmentation of domains,
+            and provide a generalized description of their motions
+            using principal axes of inertia. We can obtain the rotation angle and the native rotation axis for certain domain undergoing motion. Moreover, we can also determine
+            the component of the rotation around a specified axis, not necessarily the native rotation axis. Using such a toolset we can compare domain motion data from different researchers.
+            <br><br><img alt="" src="https://suvrajitm.github.io/reswork/figdmtoc.jpg" width="250" height="175"></br>
+            <br><b>Quantifying the domain motion of macromolecular machines</b></br>
+            <br><img alt="" src="https://suvrajitm.github.io/reswork/SSUBodyRot.gif" width="350" height="175">
+            <img alt="" src="https://suvrajitm.github.io/reswork/SUHeadRot.gif" width="350" height="175"></br>
+            <br><b>Domain Motion of a molecular machine, ribosome. Small Subunit Body rotation (Top). Small Subunit Head rotation (Bottom).</b></br>
+            <br>Reference:<a href="http://pubs.acs.org/doi/abs/10.1021/acs.jpcb.6b10732" style="TEXT-DECORATION: none"> Quantitative Characterization of Domain Motions in Molecular Machines</a>
+            <br><a href="http://pubs.acs.org/doi/abs/10.1021/acs.jpcb.6b10732" style="TEXT-DECORATION: none">DOI: 10.1021/acs.jpcb.6b10732 </a></br>
+            <br><b>Previous Research</b>
+            <br>My previous research interests were single molecule Biophysics and fluorescence microscopy image analysis. I was involved in few different projects such as single particle tracking of biological molecules and superresolution bioimaging studies.
+            My main project was on developing approaches using Generative models for inferring biological structures from single molecule super-resolution datasets, which can potentially improve dynamic localization imaging of structural components in cells.
+            I was also involved in the development of three-dimensional single molecule localization algorithms using fluorescent beads, quantum dots and fluorogen activating peptides (FAPs).
+            <br>Apart from single molecule imaging projects, I have also worked on understanding co-translational folding of protein, where I computationally studied the effect of codon usage and tRNA concentration on the translation rates for several proteins.<br/>
+            <br><br>
+            <h2>Research Summary</h2>
+            <div align="justify">
+            <b>I. Computational Biology and Computational Genomics</b>
+            <li type="none">Transcriptional Gene Regulatory network</li>
+            <li type="none">Machine Learning</li>
+            <b>II. Computational Structural Biology and Biophysics</b>
+            <li type="none">Cryo-EM Image reconstruction of macromolecular structures</li>
+            <li type="none">Heterogeniety and dynamics of macromolecular machines using Manifold learning and other computational approaches</li> <b>III. Computational Single Molecule Biophysics</b>
+            <li type="none">Single Molecule Biophysics , Single Particle Tracking, Super-Resolution Imaging</li>
+            <br><b>IV. General Topics</b></br>
+            <li type="none">Probabilistic Graphical Models</li>
+            <li type="none">Generative Models</li>
+            <li type="none">Manifold Learning</li>
+            <li type="none">Machine Learning</li>
+            <li type="none">Biological Image Analysis</li>
+            <li type="none">Computer Vision</li>
+            <li type="none">Pure and Applied Mathematics</li>
+            </div>
+            </div>
 
-    <div id="navigation">
-    <h2></h2>
-    <ul>
-        <li><a href="https://suvrajitm.github.io/" style="TEXT-DECORATION: none">Home</a></li>
-        <li><a href="https://suvrajitm.github.io/cv.html" style="text-decoration: none">Curriculum Vitae</a></li>
-        <li><a style="TEXT-DECORATION: none" href="https://suvrajitm.github.io/research.html" class="current">Research</a></li>
-        <li><a style="TEXT-DECORATION: none" href="https://suvrajitm.github.io/publications.html">Publications</a></li>
-        <li><a style="TEXT-DECORATION: none" href="https://suvrajitm.github.io/personal.html">Personal</a></li>
-        <li><a style="TEXT-DECORATION: none" href="https://suvrajitm.github.io/gallery.html">Gallery</a></li>
-        <li><a style="TEXT-DECORATION: none" href="https://suvrajitm.github.io/newsblog.html">News Blog</a></li>
-    </ul>
-    </div>
-    </div>
-    <div id="extra">
-    <h2></h2>
-    <p> </p>
-    </div>
-    <div id="footer">
-        <ul>
-            <li><a href="https://suvrajitm.github.io/" style="TEXT-DECORATION: none">Home</a></li>
-            <li><a href="https://suvrajitm.github.io/cv.html" style="text-decoration: none">Curriculum Vitae</a></li>
-            <li><a style="TEXT-DECORATION: none" href="https://suvrajitm.github.io/research.html">Research</a></li>
-            <li><a style="TEXT-DECORATION: none" href="https://suvrajitm.github.io/publications.html">Publications</a></li>
-            <li><a style="TEXT-DECORATION: none" href="https://suvrajitm.github.io/personal.html">Personal</a></li>
-            <li><a style="TEXT-DECORATION: none" href="https://suvrajitm.github.io/gallery.html">Gallery</a></li>
-            <li><a style="TEXT-DECORATION: none" href="https://suvrajitm.github.io/newsblog.html">News Blog</a></li>
-        </ul>
+            </div>
 
-        <p>
-            <script language="JavaScript">
-            <!-- Hide JavaScript...
-            var LastUpdated = document.lastModified;
-            document.writeln ("last updated " + LastUpdated + " EST");
-            // End Hiding -->
-            </script>
-        </p>
-    </div>
+            <div id="navigation">
+                <h2></h2>
+                <ul>
+                    <li><a href="https://suvrajitm.github.io/" style="TEXT-DECORATION: none">Home</a></li>
+                    <li><a href="https://suvrajitm.github.io/cv.html" style="text-decoration: none">Curriculum Vitae</a></li>
+                    <li><a style="TEXT-DECORATION: none" href="https://suvrajitm.github.io/research.html" class="current">Research</a></li>
+                    <li><a style="TEXT-DECORATION: none" href="https://suvrajitm.github.io/publications.html">Publications</a></li>
+                    <li><a style="TEXT-DECORATION: none" href="https://suvrajitm.github.io/personal.html">Personal</a></li>
+                    <li><a style="TEXT-DECORATION: none" href="https://suvrajitm.github.io/gallery.html">Gallery</a></li>
+                    <li><a style="TEXT-DECORATION: none" href="https://suvrajitm.github.io/newsblog.html">News Blog</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="extra">
+            <h2></h2>
+            <p> </p>
+        </div>
 
-    <div id="container">
-    <div style="line-height:16px;text-align:left;"><script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=n&d=ggAPxFMu4FnYfUrtqPAyZkn9vmmtze7VPBt3DX_Ee7U'></script></div>
-    <div style="line-height:16px;text-align:center;"><script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=190&t=tt&d=ep3zslNnOLbXwk5lIFVOaV02faEbkNoCHwjiJ6c5qw8'></script></div>
-    <!-- Start: Copyright 2024 TraceMyIP.org Service Code (032236-08032024)- DO NOT MODIFY //-->
-    <div id="elemID031021" style="line-height:16px;text-align:right;z-index:100000;"><script async type="text/javascript" src="//s3.tracemyip.org/vLg/lgUrl.php?pidnVar2=72612&amp;prtVar2=3&amp;stlVar2=1209&amp;rgtype=4684NR-IPIB&amp;scvVar2=12"></script><noscript><a href="https://www.tracemyip.org/website-visitors-alerts.htm"><img src="//s3.tracemyip.org/vLg/1209/4684NR-IPIB/72612/3/12/ans/" alt="Page visits alerts" referrerpolicy="no-referrer-when-downgrade" style="border:0px;"></a></noscript></div>
-    </div> 
-    <!-- End: TraceMyIP.org Service Code //-->
-    </div>
+        <div id="footer">
+            <ul>
+                <li><a href="https://suvrajitm.github.io/" style="TEXT-DECORATION: none">Home</a></li> 
+                <li><a href="https://suvrajitm.github.io/cv.html" style="text-decoration: none">Curriculum Vitae</a></li>
+                <li><a style="TEXT-DECORATION: none" href="https://suvrajitm.github.io/research.html">Research</a></li> 
+                <li><a style="TEXT-DECORATION: none" href="https://suvrajitm.github.io/publications.html">Publications</a></li> 
+                <li><a style="TEXT-DECORATION: none" href="https://suvrajitm.github.io/personal.html">Personal</a></li>
+                <li><a style="TEXT-DECORATION: none" href="https://suvrajitm.github.io/gallery.html">Gallery</a></li> 
+                <li><a style="TEXT-DECORATION: none" href="https://suvrajitm.github.io/newsblog.html">News Blog</a></li> 
+            </ul>
+            <p>
+                <script language="JavaScript">
+                    <!-- Hide JavaScript...
+                    var LastUpdated = document.lastModified;
+                    document.writeln ("last updated " + LastUpdated + " EST");
+                    // End Hiding -->
+                </script>
+            </p>
+
+        </div>
+
+
+        <div id="container">
+            <div style="float:left;"><script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=140&t=n&d=ggAPxFMu4FnYfUrtqPAyZkn9vmmtze7VPBt3DX_Ee7U'></script></div>   
+            <div style="float:center;"><script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=140&t=tt&d=ep3zslNnOLbXwk5lIFVOaV02faEbkNoCHwjiJ6c5qw8'></script></div>
+            <!-- Start: Copyright 2024 TraceMyIP.org Service Code (032236-08032024)- DO NOT MODIFY //-->
+            <div id="elemID031021" style="line-height:16px;text-align:right;z-index:100000;"><script async type="text/javascript" src="//s3.tracemyip.org/vLg/lgUrl.php?pidnVar2=72612&amp;prtVar2=3&amp;stlVar2=1209&amp;rgtype=4684NR-IPIB&amp;scvVar2=12"></script><noscript><a href="https://www.tracemyip.org/website-visitors-alerts.htm"><img src="//s3.tracemyip.org/vLg/1209/4684NR-IPIB/72612/3/12/ans/" alt="Page visits alerts" referrerpolicy="no-referrer-when-downgrade" style="border:0px;"></a></noscript></div> 
+            <!-- End: TraceMyIP.org Service Code //-->
+        </div>
     </div>
 </body>
