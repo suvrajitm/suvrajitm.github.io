@@ -139,8 +139,8 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.2em 0; }
   gap: 16px;
 }
 .identity .avatar00 {
-  width: 256px;
-  height: 256px;
+  width: 96px;
+  height: 96px;
   border-radius: 50%;
   object-fit: cover;
   background: var(--paper-2);
