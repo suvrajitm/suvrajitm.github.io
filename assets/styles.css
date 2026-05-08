@@ -138,13 +138,27 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.2em 0; }
   flex-direction: column;
   gap: 16px;
 }
-.identity .avatar {
+.identity .avatar00 {
   width: 256px;
   height: 256px;
   border-radius: 50%;
   object-fit: cover;
   background: var(--paper-2);
   box-shadow: 0 0 0 1px var(--rule), 0 8px 24px -16px color-mix(in oklch, var(--ink) 50%, transparent);
+}
+.identity .avatar {
+  width: min(320px, 100%);
+  aspect-ratio: 1 / 1;
+
+  border-radius: 24px;
+  object-fit: cover;
+  background: var(--paper-2);
+
+  box-shadow:
+    0 0 0 1px var(--rule),
+    0 24px 60px -24px color-mix(in oklch, var(--ink) 35%, transparent);
+
+  transition: transform 0.3s ease;
 }
 .identity .name {
   font-family: var(--serif);
